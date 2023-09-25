@@ -1,0 +1,19 @@
+{% extends "app1/base.html" %}
+{% load static %}
+
+{% block containt %}
+
+
+<div class="row">
+    <div class="col-sm-8 offset-2">
+        <h4 class="text-center alert alert-info"> Update Data </h4>
+        <form action="" method="POST">
+            {% csrf_token %}
+            {{form.as_p}}
+            <input type="submit" class="btn btn-success" value="Update">
+            <a href="{% url 'add' %}" class="btn btn-info">Back To Hoome</a>
+        </form>
+    </div>
+</div>
+  
+{% endblock containt %}
