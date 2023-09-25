@@ -52,3 +52,21 @@ This  CRUD (Create, Read, Update, Delete) application I developed using Django, 
         - app1
             - all templates files
     - manage.py
+ 
+## Installation
+1. Python Installation
+       - Visit the official Website https://www.python.org/.
+       - Click on the "Download" option.
+       - Choose The Python Version
+       - Select Operating System
+       - Download the Installer
+       - Run the Installer
+       - Optional Modify The Path
+       - Verify the installation
+2. Django Installation
+       - Open Command Promot or Terminal
+       - Run the Commant ```pip install django```  For Specfic Version ```pip install django==4.2```
+       - Verify the Installation ```python -m django --version```
+
+   
+      
